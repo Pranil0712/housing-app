@@ -1,0 +1,8 @@
+# Ignore Terraform system files
+**/.terraform/
+*.tfstate
+*.tfstate.backup
+*.lock.hcl
+
+# Ignore keys (Safety first!)
+*.pem
